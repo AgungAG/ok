@@ -29,8 +29,14 @@ sudo apt-get install npm
 sudo apt-get install python3-pip
 sudo apt-get install neofetch -y
 sudo apt-get install screen -y
+sudo apt-get install speedtest-cli
 sudo pip3 install uro
 sudo apt-get install golang-go -y
+
+# VulnLab
+apt install docker.io
+sudo systemctl enable docker
+docker run --restart=always -d -p 2222:80 zxxsnxx/vulnlabyavuzlar
 
 # Download and install Go
 wget https://go.dev/dl/go1.21.3.linux-amd64.tar.gz
@@ -92,6 +98,19 @@ cd
 # Install sqlmap
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd
+
+# Awesome Bug Bounty
+git clone https://github.com/0xJin/awesome-bugbounty-builder.git
+cd awesome-bugbounty-builder/
+chmod +x awesome-bugbounty-build.sh
+./awesome-bugbounty-build.sh
+cd
+
+# Screen hunting
+mkdir bounty
+cd bounty
+screen -S ok
+
 
 # Installation complete
 echo "Installation complete!"
