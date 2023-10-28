@@ -108,9 +108,10 @@ cd
 
 # Screen hunting
 mkdir bounty
+cd ok
+mv scan.sh /bounty/
 cd bounty
 screen -S ok
-
 
 # Installation complete
 echo "Installation complete!"
