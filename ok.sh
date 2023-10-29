@@ -30,6 +30,7 @@ sudo apt-get install python3-pip -y
 sudo apt-get install neofetch -y
 sudo apt-get install screen -y
 sudo apt-get install speedtest-cli -y
+sudo apt-get install wpscan -y
 sudo pip3 install uro
 sudo apt-get install golang-go -y
 
@@ -110,7 +111,7 @@ cd
 mkdir bounty
 cd ok
 mv scan.sh /bounty/
-cd bounty
+cd ~/bounty
 screen -S ok
 
 # Installation complete
