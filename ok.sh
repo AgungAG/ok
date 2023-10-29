@@ -24,12 +24,12 @@ sudo apt-get install python-dnspython -y
 sudo apt-get install git -y
 sudo apt-get install rename -y
 sudo apt-get install xargs -y
-sudo apt-get install nodejs
-sudo apt-get install npm
-sudo apt-get install python3-pip
+sudo apt-get install nodejs -y
+sudo apt-get install npm -y
+sudo apt-get install python3-pip -y
 sudo apt-get install neofetch -y
 sudo apt-get install screen -y
-sudo apt-get install speedtest-cli
+sudo apt-get install speedtest-cli -y
 sudo pip3 install uro
 sudo apt-get install golang-go -y
 
