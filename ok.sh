@@ -1,4 +1,3 @@
-Bash
 #!/bin/bash
 
 # Update and upgrade system
