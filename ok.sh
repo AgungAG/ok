@@ -30,6 +30,7 @@ sudo apt-get install neofetch -y
 sudo apt-get install screen -y
 sudo apt-get install speedtest-cli -y
 sudo apt-get install wpscan -y
+sudo apt-get install tor -y
 sudo pip3 install uro
 sudo apt-get install golang-go -y
 
@@ -39,8 +40,8 @@ sudo systemctl enable docker
 docker run --restart=always -d -p 2222:80 zxxsnxx/vulnlabyavuzlar
 
 # Download and install Go
-wget https://go.dev/dl/go1.21.3.linux-amd64.tar.gz
-sudo tar -xvf go1.21.3.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.21.4.linux-amd64.tar.gz
+sudo tar -xvf go1.21.4.linux-amd64.tar.gz
 sudo mv go /usr/local
 
 # Set Go environment variables
