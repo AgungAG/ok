@@ -10,7 +10,7 @@ subfinder -d $domain > subdomain.txt
 
 # httpx
 echo "Menjalankan httpx..."
-httpx -l subdomain.txt > activesubdomain.txt -threads 1000
+httpx -l subdomain.txt > activesubdomain.txt -threads 300000
 
 # nuclei
 echo "Menjalankan nuclei..."
