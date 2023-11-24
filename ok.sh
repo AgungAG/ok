@@ -100,6 +100,13 @@ cd
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd
 
+# PwnXSS
+git clone https://github.com/pwn0sec/PwnXSS
+chmod 755 -R PwnXSS
+cd PwnXSS
+python3 pwnxss.py --help
+cd
+
 # Awesome Bug Bounty
 git clone https://github.com/0xJin/awesome-bugbounty-builder.git
 cd awesome-bugbounty-builder/
