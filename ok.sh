@@ -2,7 +2,7 @@
 
 # Update and upgrade system
 sudo apt-get update -y
-sudo apt-get full-upgrade -y
+#sudo apt-get full-upgrade -y
 
 # Install Python 3 and PIP
 sudo apt-get install python3-pip -y
@@ -115,11 +115,11 @@ python3 pwnxss.py --help
 cd
 
 # Awesome Bug Bounty
-git clone https://github.com/0xJin/awesome-bugbounty-builder.git
-cd awesome-bugbounty-builder/
-chmod +x awesome-bugbounty-build.sh
-./awesome-bugbounty-build.sh
-cd
+#git clone https://github.com/0xJin/awesome-bugbounty-builder.git
+#cd awesome-bugbounty-builder/
+#chmod +x awesome-bugbounty-build.sh
+#./awesome-bugbounty-build.sh
+#cd
 
 # Screen hunting
 mkdir bounty
