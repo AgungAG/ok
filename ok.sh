@@ -124,7 +124,7 @@ cd
 # Screen hunting
 mkdir bounty
 cd ok
-mv scan.sh ~/bounty
+cp scan* ~/bounty
 cd ~/bounty
 screen -S ok
 
