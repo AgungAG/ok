@@ -4,6 +4,9 @@
 sudo apt-get update -y
 #sudo apt-get full-upgrade -y
 
+# Install Nala
+sudo apt-get nala -y
+
 # Install Python 3 and PIP
 sudo apt-get install python3-pip -y
 
