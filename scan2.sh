@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Input domain
-echo "Masukkan domain : "
-read domain
+read -p "Masukkan domain : " domain
 
 # Subfinder
 echo "Menjalankan Subfinder..."
