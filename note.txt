@@ -38,3 +38,6 @@ XSpear -u http://testphp.vulnweb.com/listproducts.php?cat=FUZZ -v 0 -a
 
 #PwnXSS
 python3 pwnxss.py -u http://d.com
+
+#XRAY
+./xray_linux_amd64 ws --basic-crawler https://jakarta.go.id --plugins sqldet --html-output vuln.html
