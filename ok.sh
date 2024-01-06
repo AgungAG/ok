@@ -124,6 +124,14 @@ cd
 #./awesome-bugbounty-build.sh
 #cd
 
+# XRAY
+mkdir xray
+cd ~/xray
+wget https://github.com/chaitin/xray/releases/download/1.9.11/xray_linux_amd64.zip
+unzip xray_linux_amd64.zip
+rm xray_linux_amd64.zip
+cd
+
 # Screen hunting
 mkdir bounty
 cd ok
