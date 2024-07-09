@@ -2,7 +2,7 @@
 
 #FastKaliRepo
 git clone https://github.com/frozzipies/FastKaliRepo/
-cd Fast-Kali-Repo
+cd FastKaliRepo
 chmod +x fastrepo.sh
 bash fastrepo.sh
 
