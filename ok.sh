@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#FastKaliRepo
+git clone https://github.com/frozzipies/FastKaliRepo/
+cd Fast-Kali-Repo
+chmod +x fastrepo.sh
+bash fastrepo.sh
+
 # Update and upgrade system
 sudo apt-get update -y
 #sudo apt-get full-upgrade -y
