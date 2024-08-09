@@ -33,6 +33,15 @@ paramspider -d ex.com
 #subfinder
 subfinder -d ex.com -o subdomain.txt
 
+#assetfinder
+assetfinder --subs-only redacted.com
+
+#shosubgo
+shosubgo -d redacted.com -s blaKdGPSWifUWLgBzkVR6ZX17TMSOrOF
+
+#github-subdomains
+github-subdomains -d redacted.com -raw -t 
+
 #XSpear
 XSpear -u http://testphp.vulnweb.com/listproducts.php?cat=FUZZ -v 0 -a
 
